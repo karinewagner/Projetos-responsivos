@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  font-size: 62.5%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background: #EFF1FF;
+}
+
+header {
+  position: relative;
+  width: 377px;
+}
+
+header::before {
+  content: '';
+  width: 377px;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  
+  background-color: #8E9AAF;
+}
+
+header::after {
+  content: '';
+  width: 377px;
+  height: 70px;
+
+  position: absolute;
+  left: 0;
+  top: 231px;
+  z-index: -1;
+  
+  background-color: #CBC0D3;
+}
+
+.header img {
+  margin: 12px 80px;
+  width: 13.7rem;
+  height: 13.7rem;
+}
+
+.header h1 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+  margin: 0 74px;
+}
+
+.paragraph p {
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  padding: 50px 50px 125px 50px;
+}
+
+main {
+  margin: 40px 100px;
+
+  display: grid;
+  gap: 3.2rem;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: 
+  "A B C"
+  "D B F"
+  "D E F";
+}
+
+main div:nth-child(1) {
+grid-area: A;
+}
+main div:nth-child(2) {
+grid-area: B;
+}
+main div:nth-child(3) {
+grid-area: C;
+}
+main div:nth-child(4) {
+grid-area: D;
+}
+main div:nth-child(5) {
+grid-area: E;
+}
+main div:nth-child(6) {
+grid-area: F;
+}
+
+.card {
+  position: relative;
+}
+
+.card h2 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  letter-spacing: 0.05em;
+  color: #4A4E69;
+
+  width: 112px;
+  height: 35px;
+  background: #FEEAFA;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 60%;
+  top: 1.0rem;
+  z-index: 1;
+}
