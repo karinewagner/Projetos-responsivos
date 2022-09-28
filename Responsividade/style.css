@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-size: 62,5%; /* 10px */
+  font-size: 62,5%;
 }
 
 ul {
@@ -37,14 +37,14 @@ h1 {
 
 main p:first-child {
   color: #7158EF;
-  letter-spacing: 3px; /* Espaço entre as linhas*/
+  letter-spacing: 3px;
   text-transform: uppercase;
   line-height: 3.2rem;
   
   margin-bottom: 1.7rem;
 }
 
-h1 + p { /*Pegar o p que verm logo após o h1*/
+h1 + p { 
   color: rgb(10, 0, 57, 0.64);
   line-height: 3.2rem;
 
@@ -54,7 +54,7 @@ h1 + p { /*Pegar o p que verm logo após o h1*/
 a {
   color: #090039;
 
-  text-decoration: none; /*Para limpar o sublinha e cor azul do link*/
+  text-decoration: none;
 }
 
 a:hover {
