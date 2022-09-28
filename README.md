@@ -1,13 +1,46 @@
 # Projetos-responsivos
 
-Olá pessoal.
+## Olá pessoal.
 
-Os reposítorios se referem a aprendizagem e aplicação do conhecimento de responsividade em tela para Mobile e Desktop.
+Estes reposítorios se referem a aprendizagem e aplicação do conhecimento de responsividade em tela para Desktop e Mobile.
 
-Projetos desenvolvidos: 
-  * projeto-SpaceCream-mobile
-  * projeto-SpaceCream-desktop
+### Tecnologias
+- HTML
+- CSS 
+  - Responsividade
+  - Animação e 
+  - Variáveis
+- Git e Github
+</br>
 
-Templates no figma:
-(https://www.figma.com/file/WQmoKyhZuyK3vXrcWve9JZ/Stage-03---Mobile-First-(Copy)?node-id=0%3A1)
-(https://www.figma.com/file/ngNZ9TBY9jPXNacgFkfZSy/Stage-03---Grid-com-anima%C3%A7%C3%B5es-(Copy)?node-id=0%3A1)
+### Projetos desenvolvidos: 
+
+> Projeto-SpaceCream-desktop
+
+[Clique aqui para visualização](https://karinewagner.github.io/Projetos-responsivos/projeto-SpaceCream-desktop/)
+![preview](./projeto-SpaceCream-desktop/.github/preview.png) 
+</br>
+</br>
+
+> Projeto-SpaceCream-mobile
+
+[Clique aqui para visualização](https://karinewagner.github.io/Projetos-responsivos/projeto-SpaceCream-mobile/)
+![preview](./projeto-SpaceCream-mobile/.github/preview.png) 
+</br>
+</br>
+
+### Projetos complementares de estudo: 
+
+> Animação e variáveis
+
+[Clique aqui para visualização](https://karinewagner.github.io/Projetos-responsivos/Animacao-e-variaveis/)
+![preview](./Animacao-e-variaveis/.github/preview.png) 
+</br>
+</br>
+
+> Responsividade
+
+[Clique aqui para visualização](https://karinewagner.github.io/Projetos-responsivos/Responsividade/)
+![preview](./Responsividade/.github/preview.png) 
+</br>
+</br>
